@@ -7,6 +7,14 @@ public class Pot {
 
     public Pot(){}
 
+    public Pot( String make, double weight, String material, boolean isStainless){
+        this.make = make;
+        this.weight = weight;
+        this.material = material;
+        this.isStainless = isStainless;
+    }
+
+
     public String getMake() {
         return make;
     }
